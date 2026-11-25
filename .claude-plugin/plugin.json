@@ -1,0 +1,30 @@
+{
+  "name": "vcc",
+  "version": "0.4.0",
+  "description": "VCC (Vemoris Claude Code): agentes, skills, comandos, memoria por proyecto y hooks de seguridad en español e inglés. / Bilingual agents, skills, commands, per-project memory and security hooks for Claude Code.",
+  "author": {
+    "name": "Vemoris Software",
+    "url": "https://github.com/VemorisSoftware"
+  },
+  "homepage": "https://github.com/VemorisSoftware/vcc",
+  "repository": "https://github.com/VemorisSoftware/vcc",
+  "license": "MIT",
+  "keywords": ["claude-code", "agentes", "skills", "hooks", "seguridad", "tdd", "español", "english", "bilingual"],
+  "userConfig": {
+    "perfil": {
+      "type": "string",
+      "title": "Perfil de seguridad VCC",
+      "description": "minimo, estandar o estricto. Un valor inválido usa estandar.",
+      "default": "estandar"
+    },
+    "idioma": {
+      "type": "string",
+      "title": "Idioma / Language",
+      "description": "es (español) o en (English) para los mensajes de los hooks.",
+      "default": "es"
+    }
+  },
+  "mcpServers": {},
+  "skills": ["./skills/"],
+  "commands": ["./commands/"]
+}

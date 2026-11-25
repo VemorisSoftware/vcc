@@ -1,0 +1,10 @@
+{
+  "name": "vcc-extra",
+  "version": "0.4.0",
+  "description": "VCC Extra: 64 agentes especialistas (frameworks, juegos, audio, datos, IA, infraestructura, seguridad, diseño y negocio) en español e inglés. Complementa a VCC. / 64 specialist agents, bilingual. Complements VCC.",
+  "author": { "name": "Vemoris Software", "url": "https://github.com/VemorisSoftware" },
+  "homepage": "https://github.com/VemorisSoftware/vcc",
+  "repository": "https://github.com/VemorisSoftware/vcc",
+  "license": "MIT",
+  "keywords": ["claude-code", "agentes", "agents", "español", "english"]
+}

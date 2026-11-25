@@ -1,0 +1,13 @@
+{
+  "name": "vcc",
+  "version": "0.4.0",
+  "private": true,
+  "description": "VCC (Vemoris Claude Code): agentes, skills, comandos y hooks de seguridad en español e inglés para Claude Code",
+  "license": "MIT",
+  "author": "Vemoris Software",
+  "repository": { "type": "git", "url": "git+https://github.com/VemorisSoftware/vcc.git" },
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  }
+}

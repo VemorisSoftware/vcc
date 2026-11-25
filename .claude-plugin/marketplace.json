@@ -1,0 +1,53 @@
+{
+  "name": "vcc",
+  "owner": {
+    "name": "Vemoris Software",
+    "url": "https://github.com/VemorisSoftware"
+  },
+  "metadata": {
+    "description": "VCC — capa de trabajo para Claude Code en español e inglés: agentes, skills, comandos, memoria y seguridad. / Bilingual Claude Code toolkit."
+  },
+  "plugins": [
+    {
+      "name": "vcc",
+      "source": "./",
+      "description": "Agentes, skills, comandos y hooks de seguridad en español e inglés para Claude Code / Bilingual agents, skills, commands and security hooks for Claude Code",
+      "version": "0.4.0",
+      "author": {
+        "name": "Vemoris Software"
+      },
+      "homepage": "https://github.com/VemorisSoftware/vcc",
+      "repository": "https://github.com/VemorisSoftware/vcc",
+      "license": "MIT",
+      "category": "workflow",
+      "tags": [
+        "agentes",
+        "skills",
+        "hooks",
+        "seguridad",
+        "español",
+        "english"
+      ]
+    },
+    {
+      "name": "vcc-extra",
+      "source": "./plugins/vcc-extra",
+      "description": "64 agentes especialistas en español e inglés: frameworks, juegos, audio, datos, IA, infraestructura, seguridad, diseño y negocio / 64 bilingual specialist agents",
+      "version": "0.4.0",
+      "author": {
+        "name": "Vemoris Software"
+      },
+      "homepage": "https://github.com/VemorisSoftware/vcc",
+      "repository": "https://github.com/VemorisSoftware/vcc",
+      "license": "MIT",
+      "category": "workflow",
+      "tags": [
+        "agentes",
+        "agents",
+        "especialistas",
+        "español",
+        "english"
+      ]
+    }
+  ]
+}
